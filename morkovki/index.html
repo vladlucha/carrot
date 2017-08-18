@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Морковка.дети</title>
+
+  <link rel="shortcut icon" href="img/faveicon.png" type="image/png">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+  <link rel="stylesheet" href="css/blueimp-gallery.css">
+  <link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
+  <link rel="stylesheet" href="css/blueimp-gallery-video.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="top">
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="#first"><img src="img/logo.png" alt="logo" class="logo"></a></li>
+          <li class="phone"><a href="#">+7 (812) 981-18-20</a></li>
+          <li class="block-menu"><button class="menu-mob"></button></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#second" class="active">О платье</a></li>
+          <li><a href="#third" class="how">Как заказать</a></li>
+          <li><a href="#five" class="delivery">Фото платьев</a></li>
+          <li><a href="#six" class="feedback">Отзывы</a></li>
+          <li><a href="#seven" class="questions">Вопросы и ответы</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div id="first">
+  <div class="homepage-hero-module">
+    <div class="video-container">
+      <div class="hero-content">
+        <p class="title">Все дети - художники!</p>
+        <p class="description"><span class="bold up">Закажи платье </span><br>для маленькой принцессы<br> с ее собственным дизайном<br>
+          всего за <span class="price">2490 р.</span><br> Этот подарок она запомнит<br> на всю жизнь!</p>
+        <a href="#second">
+          <div class="know-more">Узнать подробности</div>
+        </a>
+      </div>
+      <!--<div class="filter"></div>-->
+      <video autoplay loop class="fillWidth" id="bgvid'">
+        <source src="hero-video.mp4" type="video/mp4" />Ваш браузер не поддерживает видео плеер.
+      </video>
+      <div class="poster" id="poster">
+      </div>
+    </div>
+  </div>
+</div>
+<section id="second">
+  <div class="container">
+    <h4>Как это работает:</h4>
+    <div class="four-block"><span class="bold">Получи платье</span> с уникальным принтом всего за <span class="price">2490 р.</span>
+    </div>
+    <div class="third-second">
+      <div class="second-block">Отдай их ребенку<br> и попроси <span class="bold">нарисовать</span><br> платье своей
+        мечты
+      </div>
+      <div class="third-block"><span class="bold">Отсканируй или сфотографируй</span><br> рисунки и отправь нам</div>
+    </div>
+    <div class="first-block"><span class="bold">Выбери размер</span> и скачай шаблоны для рисования</div>
+    <a href="#third">
+      <div class="want-dress">Хочу заказать платье</div>
+    </a>
+  </div>
+</section>
+
+<section id="third">
+  <div class="big-title-orange"><h1>Лучший подарок для девочки всего за 2490 р.!</h1></div>
+  <div class="container">
+    <h4>Делаем платье по шагам:</h4>
+    <div class="col-md-4 col-xs-6 col-made">
+      <div class="col-bg">
+        <div class="header-made">
+          <div class="number"><span>1</span></div>
+          <div class="made">
+            <p class="title-made bold">Выбери размер</p>
+            <p class="descr-made">и скачай шаблоны для рисования</p>
+          </div>
+        </div>
+        <p class="orange-title table-size">Таблица размеров</p>
+        <img src="img/size-pic.jpg" alt="size" class="size-img table-size">
+        <a href="https://vk.com/doc5431998_443624872?hash=9cc1194ca804f1ec44&dl=aef3425e8b4b9c773d" target="_blank"><div class="orange-title">Как правильно выбрать размер?</div></a>
+      </div>
+      <button class="download table-size">Скачать</button>
+    </div>
+
+    <div class="col-md-4 col-xs-6 col-made">
+      <form action="post" class="file-form" id="file-form">
+        <div class="col-bg">
+          <div class="header-made">
+            <div class="number"><span>2</span></div>
+            <div class="made">
+              <p class="title-made bold">Загрузи</p> 
+              <p class="descr-made">скан или фото рисунка</p>
+            </div>
+          </div>
+        <!--  <div >
+            <p class="orange-title">Параметры</p>
+            <p class="descr-made">Размер А4</p>
+          </div>,-->
+          <div class="param">
+            <p class="orange-title">Где отсканировать</p>
+            <p class="descr-made">Дома</p>
+            <p class="descr-made">На работе</p>
+            <p class="descr-made">В копицентре</p>
+          </div>
+
+          <div class="param">
+            <a href="https://vk.com/doc5431998_443576865?hash=607ed5a9b8a8e8022b&dl=f6906fc7abddc87072)" class="new-window"  target="_blank"><p class="orange-title">Инструкция: как сделать хорошее фото платья</p></a>
+          </div>
+
+          <div class="choose-file">
+            <a href="">
+              <div class="choose-file-btn">Выбрать файл</div>
+            </a>
+            <input type="file" class="file-comp" id="file-input">
+            <a href=""><img src="img/comp.png" alt="comp"></a>
+            <!--<a href=""><img src="img/google-drive.png" alt="google-drive"></a>-->
+            <img src="img/loading.gif" alt="" class="loading-icon loading-icon_file" id="uploading_file">
+          </div>
+          <p class="descr-small" style="display:none;" id="responce">Файл успешно загружен! <br> Можете приступать к
+            <span class="up">заказу</span>
+          </p>
+        </div>
+        <input type="submit" class="download" value="Загрузить"/>
+      </form>
+    </div>
+
+    <div class="col-md-4 col-xs-12 col-made col-made-3">
+      <div class="col-bg">
+        <div class="header-made">
+          <div class="number"><span>3</span></div>
+          <div class="made">
+            <p class="title-made bold">Оформи заказ</p>
+            <!--<p class="descr-made">доставки и оформи заказ</p>-->
+          </div>
+        </div>
+        <div class="where-deliv">
+          <p class="orange-title">Доставка</p>
+          <p class="descr-made">Доставка по Санкт-Петербургу в пределах КАД <span
+            class="med">бесплатна от 5-ти дней</span></p>
+          <p class="delivery">Для регионов <span class="med">доставка до адреса курьерской службой</span></p>
+        </div>
+      </div>
+      <div class="popup-form">
+        <div class="close-form">x</div>
+        <form action="post" id="contact-form">
+          <div class="form1">
+            <input type="text" placeholder="Имя" name="name">
+            <input type="text" placeholder="Отчество" name="middle_name">
+            <input type="text" placeholder="Фамилия" name="last_name">
+            <input type="tel" placeholder="+7(_ _ _)_ _ _- _ _-_ _" name="phone">
+            <input type="email" placeholder="Ваш email" name="email">
+            <input type="text" placeholder="Адрес доставки" name="address">
+            <input type="hidden" name="file_url" id="file-url">
+          </div>
+          <div class="form2">
+            <p class="payment-method">Способ оплаты</p>
+            <input type="checkbox" name="payment" value="Наличными">Наличными при получении <br>
+          </div>
+          <p class="descr-small" style="display:none;" id="send-form-responce">
+          </p>
+          <input type="submit" class="download" value="Отправить" style="margin-top: 15px;"/>
+        </form>
+        <div class="popup-480">
+          <p>Для отправки заказа воспользуйтесь компьютером или планшетом. Либо отправьте заявку на электронную почту
+            <a href="mailto:">morkovka.deti@yandex.ru</a> с темой "Хочу платье"</p>
+        </div>
+      </div>
+      <div class="btn-order-container">
+        <button class="download btn-order" id="contact-form-submit">Заказать</button>
+        <img src="img/loading.gif" alt="" class="loading-icon loading-icon_send-form" id="sending_form">
+      </div>
+    </div>
+
+
+    <div class="mob-form">
+      <form action="#" method="post" class="form1">
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Фамилия">
+        <input type="tel" placeholder="+7(_ _ _)_ _ _- _ _-_ _">
+        <input type="email" placeholder="Ваш email" name="email">
+        <input type="text" placeholder="Адресс доставки">
+      </form>
+      <form action="#" method="post" class="form2">
+        <p class="payment-method">Способ оплаты</p>
+        <input type="checkbox" name="option1" value="a1">Наличными при получении <br>
+      </form>
+    </div>
+
+    <button class="btn-order-mob">Заказать</button>
+
+
+  </div>
+  <div class="black">
+    <div class="popup-sizes">
+      <div class="close-sizes">x</div>
+      <div class="multiple-items">
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">1</span></p>
+          <a href="sizes_pdf/size1.pdf" download><img src="img/size1.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">2</span></p>
+          <a href="sizes_pdf/size2.pdf" download><img src="img/size2.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">3</span></p>
+          <a href="sizes_pdf/size3.pdf" download><img src="img/size3.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">4</span></p>
+          <a href="sizes_pdf/size4.pdf" download><img src="img/size4.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">5</span></p>
+          <a href="sizes_pdf/size5.pdf" download><img src="img/size5.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">6</span></p>
+          <a href="sizes_pdf/size6.pdf" download><img src="img/size6.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">7</span></p>
+          <a href="sizes_pdf/size7.pdf" download><img src="img/size7.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">8</span></p>
+          <a href="sizes_pdf/size8.pdf" download><img src="img/size8.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">9</span></p>
+          <a href="sizes_pdf/size9.pdf" download><img src="img/size9.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">10</span></p>
+          <a href="sizes_pdf/size10.pdf" download><img src="img/size10.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">11</span></p>
+          <a href="sizes_pdf/size11.pdf" download><img src="img/size11.jpg" alt="size"></a>
+        </div>
+        <div class="slide-size">
+          <p class="name-size">Размер <span class="number-size">12</span></p>
+          <a href="sizes_pdf/size12.pdf" download><img src="img/size12.jpg" alt="size"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="fourth">
+  <div class="big-title-green"><h1>Этот подарок каждая девочка запомнит на всю жизнь! </h1></div>
+  <div class="container">
+    <div class="advantages">
+      <div class="row row1">
+        <div class="col-md-6 col-sm-12">
+          <div class="adv-title "><span class="unique">Уникальность</span></div>
+          <div class="adv-text">Платье с вашим рисунком изготавливается в единственном экземпляре - ребенок всегда будет
+            выделяться среди других детей.
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="adv-title"><span class="quality">Качество</span></div>
+          <div class="adv-text">Рисунок наносится на ткань методом сублимации: цвета получаются насыщенными и
+            выдерживают до 50 стирок.
+          </div>
+        </div>
+      </div>
+      <div class="row row2">
+        <div class="col-md-6 col-sm-12">
+          <div class="adv-title"><span class="gipo">Гипоаллергенность</span></div>
+          <div class="adv-text">Внутренний слой платья изготовлен из 100% хлопка, который не вызывает раздражения на
+            коже ребенка.
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="adv-title "><span class="fast-delivery">Быстрая доставка</span></div>
+          <div class="adv-text">Мы доставим платье любым удобным для Вас способом - это не займет много времени и
+            подарок прибудет в срок.
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#third">
+      <div class="want-dress">Хочу заказать платье</div>
+    </a>
+  </div>
+</section>
+
+<section id="five">
+  <div class="big-title-orange"><h1>Все еще сомневаетесь?</h1></div>
+  <div class="container">
+    <p class="five-descr">Тогда смотрите на счастливых обладательниц наших платьев!</p>
+    <div class="single-item">
+      <div class="slide1"><img src="img/first.jpg" alt="slide1"></div>
+      <div class="slide2"><img src="img/2slider.png" alt="slide2"></div>
+      <div class="slide3"><img src="img/3slider.png" alt="slide3"></div>
+      <div class="slide4"><img src="img/4slider.png" alt="slide4"></div>
+      <div class="slide5"><img src="img/5slider.png" alt="slide5"></div>
+      <div class="slide6"><img src="img/6slider.png" alt="slide6"></div>
+    </div>
+    <div class="sale row">
+      <div class="sale-price col-md-6 col-sm-12">
+        <h4>Скидка до конца марта!</h4>
+        <div class="usual-price">Обычная цена <span class="price">3500р.</span></div>
+        <div class="your-price">Ваша цена <span class="price">2490р.</span></div>
+      </div>
+      <div class="sale-button col-md-6 col-sm-12">
+        <a href="#third">
+          <div class="want-dress order-with-discount">Заказать со скидкой</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="six">
+  <div class="big-title-green"><h1>Эти родители уже заказали платья у нас:</h1></div>
+  <div class="container">
+    <div class="slider-container">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="videoWrapper">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/_Q7W9EB6nfI" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <!--<div class="swiper-pagination"></div>-->
+        <!-- Add Arrows -->
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</section>
+
+<section id="seven">
+  <div class="big-title-orange"><h1>Остались вопросы?</h1></div>
+  <div class="container">
+    <p class="question-title">Для вашего удобства мы собрали ответы на часто задаваемые вопросы.</p>
+    <div id="accordion">
+      <h3>Из какого материала сшито платье?<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h3>
+      <div>
+        <p class="answer">
+          Мы считаем, что дети должны носить вещи из натуральных материалов. Поэтому все наши платья изготавливаются из
+          двухслойной ткани: нижний слой, который соприкасается с телом - 100% хлопок, верхний слой - синтетика, которая
+          выдерживает множется стирок.
+        </p>
+      </div>
+      <h3>Как не ошибиться с размером?<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h3>
+      <div>
+        <p class="answer">
+          Чтобы избежать неточностей, мы прилагаем подробные размеры выкроек, благодаря которым вы можете максимально
+          точно подобрать нужный размер. Не забывайте, что дети быстро растут, и иногда лучше выбрать платье на размер
+          больше, чтобы купленная в феврале вещь пришлась в пору и летом. <a href="https://vk.com/doc5431998_443624872?hash=9cc1194ca804f1ec44&dl=aef3425e8b4b9c773d"  target="_blank" class="new-window">Как правильно выбрать размер?</a>
+        </p>
+      </div>
+      <h3>На платье может быть абсолютно любой рисунок?<span class="glyphicon glyphicon-menu-down"
+                                                             aria-hidden="true"></span></h3>
+      <div>
+        <p class="answer">
+          Почти, пусть ваш ребенок фантазию на все 100%! Однако напонимаем вам, что ущемление чьих-либо прав и
+          использование зарегестрированных товарных знаков или логотипов без согласия их правообладателей является
+          незаконным. В связи с этим мы возлагаем ответственность за правомерность использования изображений для платьев
+          на вас. Пожалуйста, проверьте, не нарушете ли вы чьи-то права и не является ли ваш рисунок незаконным.
+          Сожалеем, но мы не станем изготавливать платья с рисунками, затрагивающими честь и достоинство людей;
+          направленными на разжигание межнациональной вражды или оскорбление чувст верующих независимо от их
+          вероисповедания. Мы хотим нести людям добро и хорошее настроение.
+        </p>
+      </div>
+      <h3>Сколько стоит доставка и как скоро я получу свой заказ?<span class="glyphicon glyphicon-menu-down"
+                                                                       aria-hidden="true"></span></h3>
+      <div>
+        <p class="answer">
+          Изготовление платья занимает в среднем 5 рабочих дней. В Санкт-Петербурге в пределах КАД мы доставляем платья бесплатно по указанному адресу. Если вы живете в другом регионе, платье приедет к вам по указанному адресу курьерской службой, стоимость доставки рассчитывается индивидуально. Информацию по точной стоимости доставки мы можем сообщить по электронной почте <a href="mailto:morkovka.deti@yandex.ru">morkovka.deti@yandex.ru</a> или по телефону +7 (812) 981-18-20.
+        </p>
+      </div>
+      <h3>Я могу вернут платье и получить деньги обратно?<span class="glyphicon glyphicon-menu-down"
+                                                               aria-hidden="true"></span></h3>
+      <div>
+        <p class="answer">
+          Каждое наше платье - не просто предмет одежды, но и произведение искусства, которое изготавливается в
+          единственном экземпляре и возврату не подлежит. Просим вас подходить к выбору размера со всей серьезностью (не
+          забывайте, что дети быстро растут). Со своей стороны мы гарантируем, что качество исполнения будет высоким и
+          претензий к готовому платью у вас не возникнет.
+        </p>
+      </div>
+      <h3>Можно ли заказать футболку с рисунком для мальчика?<span class="glyphicon glyphicon-menu-down"
+                                                                   aria-hidden="true"></span></h3>
+      <div>
+        <p class="answer">
+          Сегодня мы изготавливаем только платья для девочек, но в ближайшем будущем вы сможете заказать футболку для
+          мальчика и одежду для взрослых.
+        </p>
+      </div>
+    </div>
+    <p class="question-title">Все понятно!</p>
+    <div class="make-the-order"><a href="#third">Сделать заказ</a></div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="socials">
+      <a href="https://t.me/morkovka_deti"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+      <a href="https://vk.com/morkovka.deti"><i class="fa fa-vk" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/morkovka.deti/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+    <p>© 2017 Морковка.дети, Inc. Все права защищены.</p>
+  </div>
+</footer>
+
+<a href="#first"><img src="img/up.png" alt="top" class="to-top"></a>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="js/blueimp-helper.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/blueimp-gallery.js"></script>
+<script src="js/blueimp-gallery-fullscreen.js"></script>
+<script src="js/blueimp-gallery-indicator.js"></script>
+<script src="js/blueimp-gallery-video.js"></script>
+<script src="js/blueimp-gallery-vimeo.js"></script>
+<script src="js/blueimp-gallery-youtube.js"></script>
+<script src="js/jquery.blueimp-gallery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
